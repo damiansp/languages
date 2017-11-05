@@ -61,9 +61,9 @@
   },
   "còmhradh": {
     "English": ["conversation", "discussion"],
-	  "lesson": 1,
+    "lesson": 1,
     "pos": "n",
-	  "gender": "m",
+    "gender": "m",
     "nom. sg.": "an còmhradh",
     "gen. sg.": "a' chòmhraidh",
     "nom. pl.": "na còmhraidhean"
@@ -120,7 +120,7 @@
     "pos": "v"
   },
   "leat": {
-  	"English": "with you <sg>",
+    "English": "with you <sg>",
     "lesson": 1,
     "pos": "prep-pron"
   },
@@ -130,7 +130,7 @@
     "pos": "adj",
     "comparative": "nas fheàrr",
     "expressions": {
-   	  "gu math": {
+      "gu math": {
         "English": ["well", "very", "quite"],
         "pos": "adv",
         "example": {
@@ -171,13 +171,13 @@
     "lesson": 1,
     "pos": ["pron", "adj"],
     "example": {
-    	"seo an duine!": {
-    	  "English": "this is the man!"
+      "seo an duine!": {
+        "English": "this is the man!"
       },
       "am baile seo": {
-      	"English": "this town"
-  		}
-  	}
+        "English": "this town"
+      }
+    }
   },
   "sibh": {
     "English": ["you <pl>", "you <sg polite>", "y'all"],
