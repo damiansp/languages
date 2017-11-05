@@ -17,9 +17,9 @@
     "alternate-spelling": "an diugh"
   },
   "às": {
-  	"English": "from",
-  	"lesson": 1,
-  	"pos": null
+    "English": "from",
+    "lesson": 1,
+    "pos": null
   },
   "breagha": {
     "English": ["beautiful", "fine <weather>"],
@@ -60,27 +60,27 @@
     "alternate-spelling": "cò"
   },
   "còmhradh": {
-  	"English": ["conversation", "discussion"],
-  	"lesson": 1,
-  	"pos": "n",
-  	"gender": "m",
-  	"nom. sg.": "an còmhradh",
-  	"gen. sg.": "a' chòmhraidh",
-  	"nom. pl.": "na còmhraidhean"
+    "English": ["conversation", "discussion"],
+	  "lesson": 1,
+    "pos": "n",
+	  "gender": "m",
+    "nom. sg.": "an còmhradh",
+    "gen. sg.": "a' chòmhraidh",
+    "nom. pl.": "na còmhraidhean"
   },
   "dearbh": {
-  	"English": "to prove",
+    "English": "to prove",
     "lesson": 1,
     "pos": "v",
     "gerund": "a' dearbhadh"
   },
   "fhèin": {
-  	"English": ["-self", "-selves", "oneself"],
-   	"lesson": 1,
-  	"pos": "pron"
+    "English": ["-self", "-selves", "oneself"],
+    "lesson": 1,
+    "pos": "pron"
   },
   "gràmar": {
-  	"English": "grammar",
+    "English": "grammar",
     "lesson": 1,
     "pos": "n",
     "gender": "m",
@@ -91,33 +91,33 @@
   },
   "gràmair": {
     "English": "grammar",
-  	"lesson": null,
-  	"pos": "n",
-  	"gender": "m",
-  	"nom. sg.": "an gràmair",
-  	"gen. sg.": "a' ghràmair",
-  	"nom. pl.": "na gràmairean",
-  	"alternate-spelling": "gràmar"
+    "lesson": null,
+    "pos": "n",
+    "gender": "m",
+    "nom. sg.": "an gràmair",
+    "gen. sg.": "a' ghràmair",
+    "nom. pl.": "na gràmairean",
+    "alternate-spelling": "gràmar"
   },
   "gu": {
-  	"English": "<inserted before certain adjectives>",
+    "English": "<inserted before certain adjectives>",
     "lesson": 1,
     "pos": null
   },
   "hallo": {
     "English": "hello",
-  	"lesson": 1,
-  	"pos": "interj"
+    "lesson": 1,
+    "pos": "interj"
   },
   "i": {
-  	"English": ["she", "her <direct object>", "it <f; direct object>"],
+    "English": ["she", "her <direct object>", "it <f; direct object>"],
     "lesson": 1,
     "pos": "pron"
   },
   "is": {
     "English": ["is", "are"],
     "lesson": 1,
-  	"pos": "v"
+    "pos": "v"
   },
   "leat": {
   	"English": "with you <sg>",
@@ -126,73 +126,73 @@
   },
   "math": {
     "English": "good",
-  	"lesson": 1,
-  	"pos": "adj",
-  	"comparative": "nas fheàrr",
-  	"expressions": {
-   		"gu math": {
+    "lesson": 1,
+    "pos": "adj",
+    "comparative": "nas fheàrr",
+    "expressions": {
+   	  "gu math": {
         "English": ["well", "very", "quite"],
-      	"pos": "adv",
-      	"example": {
-        	"gu math laidir": {
+        "pos": "adv",
+        "example": {
+          "gu math laidir": {
             "English": ["quite strong", "very strong"]
-        	}
+          }
         }
       }
     }
   },
   "mi": {
-  	"English": ["I", "me <direct object>"],
-  	"lesson": 1,
-  	"pos": "pron"
+    "English": ["I", "me <direct object>"],
+    "lesson": 1,
+    "pos": "pron"
   },
   "minich": {
-  	"English": "to explain",
-  	"lesson": 1,
-  	"pos": "v",
-  	"gerund": "a' mineachadh"
+    "English": "to explain",
+    "lesson": 1,
+    "pos": "v",
+    "gerund": "a' mineachadh"
   },
   "mise": {
-  	"English": ["I <emphatic>", "me <emphatic>"],
+    "English": ["I <emphatic>", "me <emphatic>"],
     "lesson": 1,
     "pos": "pron"
   },
   "obair": {
     "English": "work",
-  	"lesson": 1,
-  	"pos": "n",
-  	"genender": "f",
-  	"nom. sg.": "an obair",
-  	"gen. sg.": "na h-obrach",
-  	"nom. pl.": "na h-oibrichean"
+    "lesson": 1,
+    "pos": "n",
+    "gennder": "f",
+    "nom. sg.": "an obair",
+    "gen. sg.": "na h-obrach",
+    "nom. pl.": "na h-oibrichean"
   },
   "seo": {
-  	"English": "this",
+    "English": "this",
     "lesson": 1,
     "pos": ["pron", "adj"],
     "example": {
     	"seo an duine!": {
-    		"English": "this is the man!"
+    	  "English": "this is the man!"
       },
-  		"am baile seo": {
+      "am baile seo": {
       	"English": "this town"
   		}
   	}
   },
   "sibh": {
-  	"English": ["you <pl>", "you <sg polite>", "y'all"],
-  	"lesson": 1,
-  	"pos": "pron"
+    "English": ["you <pl>", "you <sg polite>", "y'all"],
+    "lesson": 1,
+    "pos": "pron"
   },
   "tha": {
-  	"English": ["is", "are"],
-  	"lesson": 1,
-  	"pos": "v"
-    },
+    "English": ["is", "are"],
+    "lesson": 1,
+    "pos": "v"
+  },
   "thu": {
-  	"English": "you <sg>",
-  	"lesson": 1,
-  	"pos": "pron"
+    "English": "you <sg>",
+    "lesson": 1,
+    "pos": "pron"
   }
 }
 
