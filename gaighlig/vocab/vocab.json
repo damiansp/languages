@@ -1,0 +1,223 @@
+[
+  "à": {
+    "English": "from",
+    "lesson": 1,
+    "pos": null
+  },
+  "an diugh": {
+    "English": "today",
+    "lesson": null,
+    "pos": "adv",
+    "alternate-spelling": "an-diugh"
+  },
+  "an-diugh": {
+    "English": "today",
+    "lesson": 1,
+    "pos": "adv",
+    "alternate-spelling": "an diugh"
+  },
+  "às": {
+    "English": "from",
+    "lesson": 1,
+    "pos": null
+  },
+  "breagha": {
+    "English": ["beautiful", "fine <weather>"],
+    "lesson": null,
+    "pos": "adj",
+    "comparative": "nas breagha",
+    "alternate-spellling": ["brèagha", "briagha"]
+  },
+  "brèagha": {
+    "English": ["beautiful", "fine <weather>"],
+    "lesson": 1,
+    "pos": "adj",
+    "comparative": "nas brèagha",
+    "alternate-spellling": ["breagha", "briagha"]
+  },
+  "briagha": {
+    "English": ["beautiful", "fine <weather>"],
+    "lesson": null,
+    "pos": "adj",
+    "comparative": "nas briagha",
+    "alternate-spellling": ["breagha", "brèagha"]
+  },
+  "ciamar": {
+    "English": "how",
+    "lesson": 1,
+    "pos": null
+  },
+  "cò": {
+    "English": "who?",
+    "lesson": 1,
+    "pos": "interr",
+    "alternate-spelling": "có"
+  },
+  "có": {
+    "English": "who?",
+    "lesson": null,
+    "pos": "interr",
+    "alternate-spelling": "cò"
+  },
+  "còmhradh": {
+    "English": ["conversation", "discussion"],
+    "lesson": 1,
+    "pos": "n",
+    "gender": "m",
+    "nom. sg.": "an còmhradh",
+    "gen. sg.": "a' chòmhraidh",
+    "nom. pl.": "na còmhraidhean",
+  },
+  "dearbh": {
+    "English": "to prove",
+    "lesson": 1,
+    "pos": "v",
+    "gerund": "a' dearbhadh"
+  },
+  "fhèin": {
+    "English": ["-self", "-selves", "oneself"],
+    "lesson": 1,
+    "pos": "pron"
+  },
+  "gràmar": {
+    "English": "grammar",
+    "lesson": 1,
+    "pos": "n",
+    "gender": "m",
+    "nom. sg.": "an gràmar",
+    "gen. sg.": "a' ghràmar",
+    "nom. pl.": "na gràmarean",
+    "alternate-spelling": "gràmair"
+  },
+  "gràmair": {
+    "English": "grammar",
+    "lesson": null,
+    "pos": "n",
+    "gender": "m",
+    "nom. sg.": "an gràmair",
+    "gen. sg.": "a' ghràmair",
+    "nom. pl.": "na gràmairean",
+    "alternate-spelling": "gràmar"
+  },
+  "gu": {
+    "English": "<inserted before certain adjectives>",
+    "lesson": 1,
+    "pos": null,
+  },
+  "hallo": {
+    "English": "hello",
+    "lesson": 1,
+    "pos": "interj"
+  },
+  "i": {
+    "English": ["she", "her <direct object>", "it <f; direct object>"]
+    "lesson": 1,
+    "pos": "pron"
+  },
+  "is": {
+    "English": ["is", "are"],
+    "lesson": 1,
+    "pos": "v"
+  }, 
+  "leat": {
+    "English": "with you <sg>",
+    "lesson": 1,
+    "pos": "prep-pron"
+  },
+  "math": {
+    "English": "good",
+    "lesson": 1,
+    "pos": "adj",
+    "comparative": "nas fheàrr",
+    "expressions": [
+      "gu math": {
+        "English": ["well", "very", "quite"],
+        "pos": "adv",
+        "example": {
+          "gu math laidir": {
+            "English": ["quite strong", "very strong"]
+          } 
+        }
+      }
+    ]
+  },
+  "mi": {
+    "English": ["I", "me <direct object>"],
+    "lesson": 1,
+    "pos": "pron"
+  },
+  "minich": {
+    "English": "to explain",
+    "lesson": 1,
+    "pos": "v",
+    "gerund": "a' mineachadh"
+  },
+  "mise": {
+    "English": ["I <emphatic>", "me <emphatic>"],
+    "lesson": 1,
+    "pos": "pron"
+  },
+  "obair": {
+    "English": "work",
+    "lesson": 1,
+    "pos": "n"
+    "gender": "f",
+    "nom. sg.": "an obair",
+    "gen. sg.": "na h-obrach",
+    "nom. pl.": "na h-oibrichean"
+  },
+  "seo": {
+    "English": "this",
+    "lesson": 1,
+    "pos": ["pron", "adj"]
+    "example": [
+      "seo an duine!": {
+        "English": "this is the man!"
+      },
+      "am baile seo": {
+        "English": "this town"
+      }
+    ]
+  },
+  "sibh": {
+    "English": ["you <pl>", "you <sg polite>", "y'all"],
+    "lesson": 1,
+    "pos": "pron"
+  },
+  "tha": {
+    "English": ["is", "are"],
+    "lesson": 1,
+    "pos": "v"
+  },
+  "thu": {
+    "English": "you <sg>",
+    "lesson": 1,
+    "pos": "pron"
+  }
+]
+
+/*
+
+  "": {
+  "English": "",
+    "lesson": 1,
+    "pos": ""
+    },
+
+  "alternate-spelling"
+  "expreesion"
+  "example"
+
+// verbs:
+  "gerund": ""
+
+// adjs:
+  "comparative": ""
+
+// ns:
+  "gender": "",
+  "nom. sg.": "",
+  "gen. sg.": "",
+  "nom. pl.": ""
+
+*/
