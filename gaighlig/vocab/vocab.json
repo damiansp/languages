@@ -4,81 +4,81 @@
     "lesson": 1,
     "pos": null
 	},
-	"an diugh": {
-		"English": "today",
-	  "lesson": null,
+  "an diugh": {
+    "English": "today",
+    "lesson": null,
     "pos": "adv",
     "alternate-spelling": "an-diugh"
-	},
-	"an-diugh": {
-  	"English": "today",
-  	"lesson": 1,
- 	 	"pos": "adv",
-  	"alternate-spelling": "an diugh"
-	},
-	"às": {
+  },
+  "an-diugh": {
+    "English": "today",
+    "lesson": 1,
+    "pos": "adv",
+    "alternate-spelling": "an diugh"
+  },
+  "às": {
   	"English": "from",
   	"lesson": 1,
   	"pos": null
-	},
-	"breagha": {
+  },
+  "breagha": {
     "English": ["beautiful", "fine <weather>"],
     "lesson": null,
     "pos": "adj",
     "comparative": "nas breagha",
     "alternate-spellling": ["brèagha", "briagha"]
-	},
-	"brèagha": {
+  },
+  "brèagha": {
     "English": ["beautiful", "fine <weather>"],
     "lesson": 1,
     "pos": "adj",
     "comparative": "nas brèagha",
     "alternate-spellling": ["breagha", "briagha"]
-	},
-	"briagha": {
+  },
+  "briagha": {
     "English": ["beautiful", "fine <weather>"],
     "lesson": null,
     "pos": "adj",
     "comparative": "nas briagha",
     "alternate-spellling": ["breagha", "brèagha"]
-	},
-	"ciamar": {
+  },
+  "ciamar": {
     "English": "how",
     "lesson": 1,
     "pos": null
-	},
-	"cò": {
+  },
+  "cò": {
     "English": "who?",
     "lesson": 1,
     "pos": "interr",
     "alternate-spelling": "có"
-	},
-	"có": {
+  },
+  "có": {
     "English": "who?",
     "lesson": null,
     "pos": "interr",
     "alternate-spelling": "cò"
-	},
-	"còmhradh": {
-		"English": ["conversation", "discussion"],
+  },
+  "còmhradh": {
+  	"English": ["conversation", "discussion"],
   	"lesson": 1,
   	"pos": "n",
   	"gender": "m",
   	"nom. sg.": "an còmhradh",
   	"gen. sg.": "a' chòmhraidh",
   	"nom. pl.": "na còmhraidhean"
-	},
-	"dearbh": {
+  },
+  "dearbh": {
   	"English": "to prove",
     "lesson": 1,
     "pos": "v",
     "gerund": "a' dearbhadh"
   },
-	"fhèin": {
+  "fhèin": {
   	"English": ["-self", "-selves", "oneself"],
    	"lesson": 1,
   	"pos": "pron"
-	},
+  },
   "gràmar": {
   	"English": "grammar",
     "lesson": 1,
@@ -89,7 +89,7 @@
     "nom. pl.": "na gràmarean",
     "alternate-spelling": "gràmair"
   },
-	"gràmair": {
+  "gràmair": {
     "English": "grammar",
   	"lesson": null,
   	"pos": "n",
@@ -106,29 +106,29 @@
   },
   "hallo": {
     "English": "hello",
-		"lesson": 1,
-		"pos": "interj"
-	},
+  	"lesson": 1,
+  	"pos": "interj"
+  },
   "i": {
   	"English": ["she", "her <direct object>", "it <f; direct object>"],
     "lesson": 1,
     "pos": "pron"
   },
-	"is": {
+  "is": {
     "English": ["is", "are"],
     "lesson": 1,
   	"pos": "v"
-	},
+  },
   "leat": {
   	"English": "with you <sg>",
     "lesson": 1,
     "pos": "prep-pron"
   },
-	"math": {
+  "math": {
     "English": "good",
   	"lesson": 1,
   	"pos": "adj",
-		"comparative": "nas fheàrr",
+  	"comparative": "nas fheàrr",
   	"expressions": {
    		"gu math": {
         "English": ["well", "very", "quite"],
@@ -141,12 +141,12 @@
       }
     }
   },
-	"mi": {
-		"English": ["I", "me <direct object>"],
+  "mi": {
+  	"English": ["I", "me <direct object>"],
   	"lesson": 1,
   	"pos": "pron"
   },
-	"minich": {
+  "minich": {
   	"English": "to explain",
   	"lesson": 1,
   	"pos": "v",
@@ -177,20 +177,20 @@
   		"am baile seo": {
       	"English": "this town"
   		}
-		}
+  	}
   },
-	"sibh": {
+  "sibh": {
   	"English": ["you <pl>", "you <sg polite>", "y'all"],
   	"lesson": 1,
   	"pos": "pron"
-	},
-	"tha": {
-		"English": ["is", "are"],
-		"lesson": 1,
-		"pos": "v"
+  },
+  "tha": {
+  	"English": ["is", "are"],
+  	"lesson": 1,
+  	"pos": "v"
     },
-	"thu": {
-		"English": "you <sg>",
+  "thu": {
+  	"English": "you <sg>",
   	"lesson": 1,
   	"pos": "pron"
   }
