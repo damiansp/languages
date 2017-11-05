@@ -1,8 +1,8 @@
 {
 	"a": {
-    	"English": "from",
-	    "lesson": 1,
-	    "pos": null
+  	"English": "from",
+    "lesson": 1,
+    "pos": null
 	},
 	"an diugh": {
 		"English": "today",
@@ -80,14 +80,14 @@
   	"pos": "pron"
 	},
   "gràmar": {
-    	"English": "grammar",
-      "lesson": 1,
-      "pos": "n",
-      "gender": "m",
-      "nom. sg.": "an gràmar",
-      "gen. sg.": "a' ghràmar",
-      "nom. pl.": "na gràmarean",
-      "alternate-spelling": "gràmair"
+  	"English": "grammar",
+    "lesson": 1,
+    "pos": "n",
+    "gender": "m",
+    "nom. sg.": "an gràmar",
+    "gen. sg.": "a' ghràmar",
+    "nom. pl.": "na gràmarean",
+    "alternate-spelling": "gràmair"
   },
 	"gràmair": {
     "English": "grammar",
@@ -134,9 +134,9 @@
         "English": ["well", "very", "quite"],
       	"pos": "adv",
       	"example": {
-          	"gu math laidir": {
-              "English": ["quite strong", "very strong"]
-          	}
+        	"gu math laidir": {
+            "English": ["quite strong", "very strong"]
+        	}
         }
       }
     }
@@ -190,10 +190,10 @@
 		"pos": "v"
     },
 	"thu": {
-  		"English": "you <sg>",
-    	"lesson": 1,
-    	"pos": "pron"
-    }
+		"English": "you <sg>",
+  	"lesson": 1,
+  	"pos": "pron"
+  }
 }
 
 /*
