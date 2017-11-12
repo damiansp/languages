@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vocative</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+          crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="lesson" class="row">
+        <h1>Lesson</h1>
+      </div>
+      <div id="toggleDrill" class="row">
+        <button id="toggleButton" class="btn btn-primary">Show Drill</button>
+      </div>
+      <div id="drill" class="row">
+        <h1>Vocatives: Addressing People</h1>
+        <p>For each name, give the vocative: </p>
+        <div>
+          <p id="name"></p>
+          <form>
+            <input id="response" placeholder="your answer" />
+            <button id="answerButton" class="btn btn-primary">Check</button>
+          </form>
+        </div>
+      </div>
+      <div id="retry" class="row">
+        <button id="retryButton" class="btn btn-primary">Repeat Drill</button>
+      </div>
+    </div>
+    <script src="../util/startDrill.js"></script>
+    <script src="js/names_vocative.js"></script>
+  </body>
+</html>
