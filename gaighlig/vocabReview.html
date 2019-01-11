@@ -1,0 +1,264 @@
+<body>
+  <div class="container-fluid">
+    <header>
+      <h1>G&agrave;ighlig Flashcards</h1>
+      <br />
+      <h4>Introduction</h4>
+    </header> 
+          
+    <div id="chapter-load" class="row">
+      <div class="col-md-12 text-center">
+        <h4>Flashcard Options</h4>
+        <br />
+        <form class="form-inline">
+          Lessons to include:<br /><br />
+          <div class="form-group">
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="1">
+              <label name="lesson-1">&nbsp;1</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="2">
+              <label name="lesson-2">&nbsp;2</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="3">
+              <label name="lesson-3">&nbsp;3</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="4">
+              <label name="lesson-4">&nbsp;4</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="5">
+              <label name="lesson-5">&nbsp;5</label>
+            </div>
+            <br />
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="6">
+              <label name="lesson-6">&nbsp;6</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="7">
+              <label name="lesson-7">&nbsp;7</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="8">
+              <label name="lesson-8">&nbsp;8</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="9">
+              <label name="lesson-9">&nbsp;9</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="10">
+              <label name="lesson-10">10</label>
+            </div>
+            <br />
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="11">
+              <label name="lesson-11">11</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="12">
+              <label name="lesson-12">12</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="13">
+              <label name="lesson-13">13</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="13">
+              <label name="lesson-13">14</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="13">
+              <label name="lesson-13">15</label>
+            </div>
+            <br />
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="13">
+              <label name="lesson-13">16</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="13">
+              <label name="lesson-13">17</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="13">
+              <label name="lesson-13">18</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="13">
+              <label name="lesson-13">19</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="13">
+              <label name="lesson-13">20</label>
+            </div>
+            <br />
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="13">
+              <label name="lesson-13">21</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="13">
+              <label name="lesson-13">22</label>
+            </div>
+            <div class="labeled-box">
+              <input type="checkbox" name="lesson" value="13">
+              <label name="lesson-13">23</label>
+            </div>
+            <br />
+            <br />
+            <input id="max-cards" type="number" min="1">
+            <label name="max-cards">Maximum number of cards:</label>
+            <p class="small">
+              If left blank all the cards from the selected chapters will 
+              be included.<br />
+              If a number is chosen, that many cards will be randomly 
+              selected from the chapters selected.
+            </p>
+          </div>
+          <br /><br />
+          <button type="button" class="btn btn-default" id="load-button">
+            Load Data
+          </button>
+        </form>
+      </div>
+    </div><!-- col -->
+
+    <div class="row text-center">
+      <div class="col-md-12">
+        <p class="load-error text-center" id="load-error-ajax">
+          <em>There was a problem loading the data. Please try again.</em>
+        </p>
+        <p class="load-error text-center" id="load-error-no-lesson">
+          <em>Please select at least one lesson to load.</em>
+        </p>
+      </div>
+    </div><!--row load-error -->
+  </div><!-- chapter-load -->
+
+  <div class="row" id="options">
+    <div class="col-md-12 text-center">
+      <p>Front Side:</p>
+      <form>
+        <div class="radio">
+          <label>
+            <input type="radio" name="options" id="inupiatun-text-radio" 
+                   value="inupiatun-text"  checked />
+            G&agrave;ighlig (text and audio)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="options" id="inupiatun-audio-radio" 
+                   value="inupiatun-audio" />
+            G&agrave;ighlig (audio only)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="options" id="english-text-radio" 
+                   value="english-text" />
+            English (text)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="options" id="both-text-radio"
+                   value="both-text" />
+            Both languages
+          </label>
+        </div>
+        <button type="button" id="begin-button" 
+                class="btn btn-default margin-bottom-20">
+          Begin
+        </button>
+      </form>
+    </div>
+  </div><!-- row options -->
+
+  <div class="row">
+  </div><!-- row begin-button -->
+
+
+  <!-- Card Display -->
+  <div class="row" id="card-display">
+    <div class="col-md-6" id="front">
+      <div class="card text-center">
+        <!--      <p class="spacer"></p> -->
+        <div class="text-area datum" id="front-datum">
+        <!--        <span class="datum" id="front-datum"></span> -->
+        </div>
+        <!--      <p class="spacer"></p> -->
+        <audio id="front-audio" controls>
+          <source class="audio-source" src="" 
+                  type="audio/mp4" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div id="show-button-div" 
+           class="text-center margin-top-20 margin-bottom-20">
+        <button type="button" class="btn btn-default" id="show-button">
+          Show Answer
+        </button>
+      </div>
+      <div id="response-button-div" 
+           class="text-center margin-top-20 margin-bottom-20">
+        <div class="btn-group" role="group" aria-label="response-buttons">
+          <button type="button" class="btn btn-default" id="missed">
+            Missed
+          </button>
+          <button type="button" class="btn btn-default" id="hard">
+            Hard
+          </button>
+          <button type="button" class="btn btn-default" id="ok">OK</button>
+        </div>
+      </div>
+    </div><!-- front -->
+
+    <!-- Back -->
+    <div class="col-md-6" id="back-div">
+      <div class="card text-center" id="back">
+        <!--            <p class="spacer"></p>-->
+        <div class="text-area datum" id="back-datum">
+          <!--        <span class="datum" id="back-datum"></span> -->
+        </div>
+        <!--            <p class="spacer"></p> -->
+        <audio id="back-audio" controls>
+          <source class="audio-source" src="" 
+                  type="audio/mp4" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div><!-- back-div -->
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <div id="tracker">
+        <p>
+          Cards left: <span id="card-counter"></span><br />
+        </p>
+      </div><!-- #tracker -->
+      <div id="finished">
+        <div id="finished-card">
+          <p>All finished!</p>
+          <p>Keep up the good work!</p>
+        </div>
+        <p>
+          <a class="btn btn-default" href="flashcard.html">
+            Go back to the homepage.
+          </a>
+        </p>
+      </div>
+    </div>
+  </div><!-- row -->
+</div><!-- container -->
+    
+<footer class="text-center">
+  &copy;2019 Damian Satterthwaite-Phillips<br />
+</footer>
+</body>
