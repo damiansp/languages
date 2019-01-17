@@ -1,65 +1,46 @@
-{
-  "a": {
+[
+ {
+    "Gaighlig": "a",
     "English": "from",
     "lesson": 1,
     "pos": null
   },
-  "an diugh": {
-    "English": "today",
-    "lesson": null,
-    "pos": "adv",
-    "alternate-spelling": "an-diugh"
-  },
-  "an-diugh": {
+  {
+    "Gaighlig": "an-diugh",
     "English": "today",
     "lesson": 1,
     "pos": "adv",
     "alternate-spelling": "an diugh"
   },
-  "às": {
+  {
+    "Gaighlig": "às",
     "English": "from",
     "lesson": 1,
     "pos": null
   },
-  "breagha": {
-    "English": ["beautiful", "fine <weather>"],
-    "lesson": null,
-    "pos": "adj",
-    "comparative": "nas breagha",
-    "alternate-spellling": ["brèagha", "briagha"]
-  },
-  "brèagha": {
+  {
+    "Gaighlig": "brèagha",
     "English": ["beautiful", "fine <weather>"],
     "lesson": 1,
     "pos": "adj",
     "comparative": "nas brèagha",
     "alternate-spellling": ["breagha", "briagha"]
   },
-  "briagha": {
-    "English": ["beautiful", "fine <weather>"],
-    "lesson": null,
-    "pos": "adj",
-    "comparative": "nas briagha",
-    "alternate-spellling": ["breagha", "brèagha"]
-  },
-  "ciamar": {
+  {
+    "Gaighlig": "ciamar",
     "English": "how",
     "lesson": 1,
     "pos": null
   },
-  "cò": {
+  {
+    "Gaighlig": "cò",
     "English": "who?",
     "lesson": 1,
     "pos": "interr",
     "alternate-spelling": "có"
   },
-  "có": {
-    "English": "who?",
-    "lesson": null,
-    "pos": "interr",
-    "alternate-spelling": "cò"
-  },
-  "còmhradh": {
+  {
+    "Gaighlig": "còmhradh",
     "English": ["conversation", "discussion"],
     "lesson": 1,
     "pos": "n",
@@ -68,18 +49,21 @@
     "gen. sg.": "a' chòmhraidh",
     "nom. pl.": "na còmhraidhean"
   },
-  "dearbh": {
+  {
+    "Gaighlig": "dearbh",
     "English": "to prove",
     "lesson": 1,
     "pos": "v",
     "gerund": "a' dearbhadh"
   },
-  "fhèin": {
+  {
+    "Gaighlig": "fhèin",
     "English": ["-self", "-selves", "oneself"],
     "lesson": 1,
     "pos": "pron"
   },
-  "gràmar": {
+  {
+    "Gaighlig": "gràmar",
     "English": "grammar",
     "lesson": 1,
     "pos": "n",
@@ -89,42 +73,38 @@
     "nom. pl.": "na gràmarean",
     "alternate-spelling": "gràmair"
   },
-  "gràmair": {
-    "English": "grammar",
-    "lesson": null,
-    "pos": "n",
-    "gender": "m",
-    "nom. sg.": "an gràmair",
-    "gen. sg.": "a' ghràmair",
-    "nom. pl.": "na gràmairean",
-    "alternate-spelling": "gràmar"
-  },
-  "gu": {
+  {
+    "Gaighlig": "gu",
     "English": "<inserted before certain adjectives>",
     "lesson": 1,
     "pos": null
   },
-  "hallo": {
+  {
+    "Gaighlig": "hallo",
     "English": "hello",
     "lesson": 1,
     "pos": "interj"
   },
-  "i": {
+  {
+    "Gaighlig": "i",
     "English": ["she", "her <direct object>", "it <f; direct object>"],
     "lesson": 1,
     "pos": "pron"
   },
-  "is": {
+  {
+    "Gaighlig": "is",
     "English": ["is", "are"],
     "lesson": 1,
     "pos": "v"
   },
-  "leat": {
+  {
+    "Gaighlig": "leat",
     "English": "with you <sg>",
     "lesson": 1,
     "pos": "prep-pron"
   },
-  "math": {
+  {
+    "Gaighlig": "math",
     "English": "good",
     "lesson": 1,
     "pos": "adj",
@@ -141,23 +121,27 @@
       }
     }
   },
-  "mi": {
+  {
+    "Gaighlig": "mi",
     "English": ["I", "me <direct object>"],
     "lesson": 1,
     "pos": "pron"
   },
-  "minich": {
+  {
+    "Gaighlig": "minich",
     "English": "to explain",
     "lesson": 1,
     "pos": "v",
     "gerund": "a' mineachadh"
   },
-  "mise": {
+  {
+    "Gaighlig": "mise",
     "English": ["I <emphatic>", "me <emphatic>"],
     "lesson": 1,
     "pos": "pron"
   },
-  "obair": {
+  {
+    "Gaighlig": "obair",
     "English": "work",
     "lesson": 1,
     "pos": "n",
@@ -166,7 +150,8 @@
     "gen. sg.": "na h-obrach",
     "nom. pl.": "na h-oibrichean"
   },
-  "seo": {
+  {
+    "Gaighlig": "seo",
     "English": "this",
     "lesson": 1,
     "pos": ["pron", "adj"],
@@ -179,45 +164,22 @@
       }
     }
   },
-  "sibh": {
+  {
+    "Gaighlig": "sibh",
     "English": ["you <pl>", "you <sg polite>", "y'all"],
     "lesson": 1,
     "pos": "pron"
   },
-  "tha": {
+  {
+    "Gaighlig": "tha",
     "English": ["is", "are"],
     "lesson": 1,
     "pos": "v"
   },
-  "thu": {
+  {
+    "Gaighlig": "thu",
     "English": "you <sg>",
     "lesson": 1,
     "pos": "pron"
   }
-}
-
-/*
-
-  "": {
-  "English": "",
-    "lesson": 1,
-    "pos": ""
-    },
-
-  "alternate-spelling"
-  "expreesion"
-  "example"
-
-// verbs:
-  "gerund": ""
-
-// adjs:
-  "comparative": ""
-
-// ns:
-  "gender": "",
-  "nom. sg.": "",
-  "gen. sg.": "",
-  "nom. pl.": ""
-
-*/
+]
