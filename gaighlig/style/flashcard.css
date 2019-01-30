@@ -1,0 +1,140 @@
+body {
+    background: #8ac;
+}
+
+.container-fluid {
+    background: #8ac;
+}
+
+#authors {
+    padding-bottom: 20px;
+}
+
+.underpad {
+    padding-bottom: 15px;
+}
+
+.labeled-box {
+    display: inline;
+    margin: 10px;
+}
+
+#chapter-load {
+    background: #44F;
+    color: #000;
+    padding: 20px;
+}
+
+.load-error {
+    margin: 10px auto;
+    padding: 10px;
+    width: 33%;
+    color: #C00;
+    background: #FFF;
+    border: solid 2px #C00;
+}
+
+#load-error-ajax {
+    display: none;
+}
+
+#load-error-no-lesson {
+    display: none;
+}
+
+#options {
+    margin: 10px auto;
+    display: none;
+}
+
+.radio {
+    padding-bottom: 20px;
+}
+
+#card-display {
+    background: #048;
+    display: none;
+}
+
+.card {
+    background: #eed;
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+    border: 5px solid black;
+
+    overflow: auto;
+}
+
+.text-area {
+    height: 80%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#front-datum, #back-datum {
+    font-size: 7em;
+    text-overflow: ellipsis;
+    overflow: auto;
+}
+
+.spacer {
+    height: 1em;
+}
+
+#show-button {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#back {
+    display: none;
+}
+
+#response-button-div {
+    display: none;
+}
+
+#tracker {
+    display: none;
+}
+
+#finished {
+    display: none;
+}
+
+#finished-card {
+    font-size: 2em;
+    width: 50%;
+    padding: 20px;
+    margin: 20px auto;
+    border: 5px solid black;
+    background: #eed;
+}
+
+footer {
+    padding: 20px;
+    background: white;
+}
+
+@media (max-width:390px) {
+    #ASCF-logo {
+        width: 278px;
+        height: 48px;
+    }
+}
+
+@media (min-width:390px) {
+    #ASCF-logo {
+        width: 370px;
+        height: 64px;
+    }
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
