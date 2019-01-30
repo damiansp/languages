@@ -56,6 +56,83 @@ $('#load-button').on('click', function() {
 });
 
 
+/** 
+ * Approach to generating random cards, and repeating misses:
+ * If maxCards, first take a random subset of the data, and delete the
+ * rest.  If maxCards AND both languages, randomly decide how many of each
+ * from each language, then take random sample.
+ *
+ * Once the working deck has been so created (all or random subset), 
+ * generate a random number on [0, deckLength - 1], and use that as the 
+ * index for the next card.  If both langs, randomly select the front and
+ * back.
+ *
+ * If answer is correct:
+ * Remove card from deck
+ * Decrement deckLength
+ * Decrement new card counter
+ *
+ * If answer is 'hard':
+ * Don't remove card.
+ * Decrement new card counter
+ * Increment repeat counter
+ *
+ * If missed:
+ * Push a duplicate of the word to the end of the array
+ # Decrement new card counter
+ * Increment repeat counter +2
+ */
+
+// Determine content to be on front and back, and begin
+$('#begin-button').on('click', function() {
+    let frontMatter = $('input[name="options"]:checked').val();
+    if (frontMatter == 'gaighlig-text') {
+      frontData = 'gaighlig';
+      backData = 'english';
+    } else if (frontMatter == 'english-text') {
+      frontData = 'english';
+      backData = 'gaighlig';
+    } else if (frontMatter == 'both-text') {
+      frontData = 'both';
+      backData = 'both';
+    } else if (frontMatter == 'gaighlig-audio') {
+      frontData = 'gaighligAudio';
+      backData = 'english';
+    } else {
+      alert("Maybe the interwebs are down or something?");
+    }
+    n = maxCards || gaighligArray.length;
+    cardCounter = n;
+
+    // if maxCards, randomly select and jettison the rest
+    if (maxCards) {
+      let gaighligTemp = [], englishTemp = [];
+      for (let i = 1; i <= maxCards; i++) {
+        let randIndex = Math.floor(Math.random() * gaighligArray.length):
+        gaighligTemp.push(gaighligArray.splice(randIndex, 1)[0]);
+        englishTemp.push(englishArray.splice(randIndex, 1)[0]);
+      }
+      englishArray = englishTemp;
+      gaighligArray = gaighligTemp;
+    }
+
+    // Choose and create next card
+    nextCard = pickNextCard('ok', null);
+    populateCard(frontData, nextCard);
+
+    // Transition
+    $('#options').hide();
+    $('#card-display').fadeIn();
+    $('#card-counter').html(cardCounter);
+    $('#tracker').fadeIn();
+});
+
+
+// Randomly choose a card, and decide wat to do with previous card (index) based
+// on user's difficulty
+function pickNextCard(difficulty, index) {}
+
+
 });
 
   
