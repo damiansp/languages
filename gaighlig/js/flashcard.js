@@ -128,9 +128,29 @@ $('#begin-button').on('click', function() {
 });
 
 
-// Randomly choose a card, and decide wat to do with previous card (index) based
-// on user's difficulty
-function pickNextCard(difficulty, index) {}
+// Randomly choose a card, and decide what to do with previous card (index)
+// based on user's difficulty
+function pickNextCard(difficulty, index) {
+  if (cardCounter <= 0) finish();
+  if (index || index == 0) {
+    if (gaighligArray.length == 1) finish();
+    gaighligArray.splice(index, 1);
+    englishArray.splice(index, 1);
+    n -= 1;
+    cardCounter = Math.max(cardCounter - 1, 0);
+    if (cardCounter == 0) finish();
+  } else if (difficulty == hard) ; // do nothing
+  else if (difficulty == 'missed') {
+    gaighligArray.push(gaighligArray[index]);
+    englishArray.push(englishArray[index]);
+    n += 1;
+    cardCounter += 1;
+  }
+  let randIndex = Math.floor(Math.random() * n);
+  return {index: randIndex,
+          gaighlig: gaighligArray[randIndex],
+          english: englishArray[randIndex]};
+}
 
 
 });
