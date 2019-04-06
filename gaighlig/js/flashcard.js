@@ -1,3 +1,7 @@
+/* Modeled after 
+ * https://github.com/damiansp/inupiaq-lessons/blob/master/js/flashcard.js
+ */
+
 let vocab,            // json obj of vocab and metadata
   maxCards,           // user-defined from inputs
   lessons = [],       // user-selected lessons
@@ -151,6 +155,62 @@ function pickNextCard(difficulty, index) {
           gaighlig: gaighligArray[randIndex],
           english: englishArray[randIndex]};
 }
+
+
+function populateCard(front, card) {
+  let audioPath = 'audio/' + translateEntity(card.gaighlig) + '.m4a';
+  if (front == 'both') {
+    let chooseFront = Math.random();
+    front = chooseFront > 0.5 ? 'gaighlig' : 'english';
+  }
+  // Scale text to be as large as possible, but still fit on card
+  let gaighligSize = scaleText(card.gaighlig) + 'em',
+    englishSize = scaleText(card.english) + 'em';
+  if (front == 'gaighlig') {
+    $('#front-datum').html(card.gaighlig).css('font-size', gaighligSize);
+    $('#back-datum').hrml(card.english).css('font-size', englishSize);
+    $('.audio-source').attr('src', audioPath);
+    $('audio').laod();
+    $('#back-audio').hide();
+    $('#front-audio').show();
+  } else if (front == 'english') {
+    $('#front-datum').html(card.english).css('font-size', englishSize);
+    $('#back-datum').html(card.gaighlig).css('font-size', gaighligSize);
+    $('.audio-source').attr('src', audioPath);
+    $('audio').load();
+    $('#back-audio').show();
+    $('#front-audio').hide();
+  } else if (front == 'gaighligAudio') {
+    $('#front-datum').hide();
+    $('#back-datum').html(card.english).css('font-size', englishSize);
+    $('.audio-source').attr('src', audioPath);
+    $('audio').load();
+    $('#front-audio').show();
+    $('#back-audio').hide();
+  }
+  // Transition to next card
+  $('#response-button-div').hide();
+  $('#show-button').fadeIn();
+  $('#back').hide();
+}
+
+
+function scaleText(input) {}
+
+
+function getTextLength(input) {}
+
+
+function rescale(x, inMin, inMax, outMin, outMax) {}
+
+
+function stripHTML(html) {}
+
+
+function translateEntity(str) {}
+
+
+
 
 
 });
