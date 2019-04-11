@@ -195,7 +195,28 @@ function populateCard(front, card) {
 }
 
 
-function scaleText(input) {}
+function scaleText(input) {
+  let cardWidth,
+    textData = getTextLength(input),
+    maxCharsAtMaxFontSize,
+    scaledFontSize;
+
+  if ($('#card-display').css('display', 'none')) {
+    $('#card-display').show();
+    cardWidth = $('#front-datum').width();
+  }
+  maxCharsAtMaxFontSize = Mat.floor(rescale(
+    cardWidth, cardMin, cardMax, minCharWidth, maxCharWidth));
+  // scale by longest line
+  let timesOver = Math.floor(textData.maxChars / maxCharsAtMaxFontSize);
+
+  if (timesOver >= 1) {
+    scaledFontSize = maxFontSize / (Math.sqrt(timesOver) + 1.2);
+  }
+  // scale by line breaks
+  if (textData.nLines) { scaledFontSize /= Math.srqt(textData.nLines + 1); }
+  return scaledFontSize;
+}
 
 
 function getTextLength(input) {}
