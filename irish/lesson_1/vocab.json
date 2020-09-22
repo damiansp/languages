@@ -1,0 +1,89 @@
+{
+	"ainm": {
+		"English": "name",
+		"pos": "n (m4)",
+		"introduced": 1
+	},
+	"bhfuil": {
+		"English": "(that) is; (that) are; is?, are?",
+		"pos": "v dep",
+		"introduced": 1,
+		"form of": "bí"
+	},
+	"caoi": {
+		"English": [
+			{
+				"sense": "condition"
+				"examples" [
+					{
+						"cén chaoi a bhfuil tú?": "how are you?"
+					}
+				]
+			}
+		],
+		"pos": "n (f4)",
+		"introduced": 1,
+	},
+	"cén": {
+		"English": "what?",
+		"pos": "pn interrog",
+		"introduced": 1
+	},
+	"conas": {
+		"English": "how?",
+		"pos": "pn interrog",
+		"introduced": 1
+	},
+	"Dia 's Muire daoibh": {
+		"English": "hello (to you [pl], too; said in reply to \"Dia duit\"",
+		"pos": "phrase",
+		"introduced": 1
+	},
+	"Dia 's Muire duit": {
+		"English": "hello (to you [sg], too; said in reply to \"Dia duit\"",
+		"pos": "phrase",
+		"introduced": 1
+	},
+	"Dia daoibh": {
+		"English": "hello [to multiple people]",
+		"pos": "phrase",
+		"introduced": 1
+	},
+	"Dia duit": {
+		"English": "hello [to one person]", 
+		"pos": "phrase",
+		"introduced": 1
+	},
+	"é": {
+		"English": "he; him; it",
+		"pos": "pn",
+		"introduced": 1
+	},
+	"is": {
+		"English": "[copula]: is, am, are",
+		"pos": "v",
+		"introduced": 1
+	},
+	"is mise": {
+		"English": "I am",
+		"pos": "phrase",
+		"introduced": 1
+	},
+	"ort": {
+		"English": "on you; in you; at you",
+		"pos": "prep",
+		"introduced": 1,
+		"form of": "ar [1]"
+	},
+	"ortsa": {
+		"English": "on <em>you</em>; in <em>you</em>; at <em>you</em>",
+		"pos": "prep emph",
+		"introduced": 1,
+		"form of":"ar [1]"
+	},
+	"tú": {
+		"English": "you (sg, familiar)",
+		"pos": "pn",
+		"introduced": 1
+	}
+}
